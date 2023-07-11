@@ -1,7 +1,7 @@
 /*first section*/
 
 .first-text {
- background-color:rgb(240, 208, 208);
+ background-color: rgb(240, 208, 208);
  display: flex;
  width: 1700px;
  height: 850px;
@@ -33,10 +33,14 @@
  gap: 10px;
  border-radius: 10px;
  background: #E55473;
+ color: white;
+ font-family: times;
+ font-size: 20px;
 }
 
 .banner-title {
  font-size: 50px;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .banner-content {
@@ -46,7 +50,7 @@
 
 /*second section here*/
 .second-sec {
- background-color:rgb(240, 208, 208);
+ background-color: white;
  display: block;
  width: 1700px;
  height: 1750px;
@@ -69,8 +73,9 @@
 }
 
 .banner-title2 {
- font-size: 40px;
+ font-size: 50px;
  padding-right: 150px;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .img-sec2 {
@@ -140,15 +145,19 @@
 }
 
 .img-contain {
- background-color:rgb(240, 208, 208);
+ background-color: rgb(240, 208, 208);
  display: block;
  width: 1700px;
- height: 600px;
+ height: 700px;
  flex-shrink: 0;
  margin-left: auto;
  margin-right: auto;
  margin-top: 80px;
  display: flex;
+}
+
+.sec-third-img {
+ margin-top: 50px;
 }
 
 .sec-text {
@@ -189,11 +198,16 @@
  background: #E55473;
  text-align: center;
  justify-content: center;
+ color: white;
+ font-size: 20px;
+ font-family: times;
 
 }
 
 .hot-sec {
- margin-left: 100px;
+
+ font-size: 45px;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
@@ -204,7 +218,7 @@
 /*forth section*/
 .section4 {
  display: block;
- background-color:rgb(240, 208, 208);
+ background-color: white;
  width: 1700px;
  height: 1000px;
  flex-shrink: 0;
@@ -251,7 +265,8 @@
 
 .head4 {
  padding-left: 100px;
- font-size: 40px;
+ font-size: 50px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
@@ -267,8 +282,7 @@
  margin-left: auto;
  margin-right: auto;
  margin-top: auto;
-
-
+ background-position: center;
 }
 
 
@@ -277,19 +291,20 @@
  display: block;
  flex-shrink: 0;
  margin-top: 80px;
- margin-right: 200px;
+ margin-right: 0px;
 
 }
 
 .sec4-title {
  padding-top: 100px;
  font-size: 50px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .btn4 {
  text-align: center;
  display: flex;
- margin-left: 400px;
+ margin-left: 520px;
 }
 
 .btn-sub {
@@ -297,10 +312,13 @@
  width: 150px;
  height: 54px;
  flex-shrink: 0;
- color: #070103;
+ color: white;
  border-color: rgb(30, 63, 250);
  border-radius: 8px;
  background: #f50707;
+
+ font-family: times;
+ font-size: 20px;
 }
 
 .btn4-inpt {
@@ -312,42 +330,49 @@
 }
 
 .sec-back4-text {
- margin-bottom: 30px;;
+ margin-bottom: 30px;
+ ;
 }
+
 /*footer section css*/
 
-.footer{
+.footer {
  text-align: center;
  width: 1700px;
  height: 600px;
- background-color:black;
+ background-color: black;
  flex-shrink: 0;
  margin-top: 80px;
  margin-left: auto;
  margin-right: auto;
 }
-.foot-head{
+
+.foot-head {
  padding-top: 100px;
- color:rgb(249, 243, 243);
-font-family: Lato;
-font-size: 48px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+ color: rgb(249, 243, 243);
+ font-family: Lato;
+ font-size: 48px;
+ font-style: normal;
+ font-weight: 800;
+ line-height: normal;
 }
-.span-flow{
+
+.span-flow {
  color: red;
 }
-.foot-pg{
+
+.foot-pg {
  color: white;
  font-family: gabriola;
  font-size: 30px;
 }
-.contact{
+
+.contact {
  color: white;
  font-size: 40px;
  ;
 }
-.links{
+
+.links {
  text-decoration: none;
 }
